@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    max-width: 100%;
+}
+
+header{ 
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+    min-height: 80px;
+    width: 100%;
+}
+#wrapper{
+    background-color: #ddd;
+    height: auto;
+    width: 100%;
+}
+nav{
+    float: left;
+    width: 17%;
+    height: auto;
+}
+main{
+    background-color: #f7f7f7;
+    border-left: 1px solid #ccc;
+    margin-left: 17%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 50px;
+    position: relative;
+    height: auto;
+}
+footer{ 
+    text-align: center;
+    border-top: 1px solid #ccc;
+    background-color: #dedede;
+    min-height: 45px;
+    padding-top: 5px;
+    width: 100%;
+
+}
+footer p{
+    color: #333;
+    cursor: pointer;
+}
+footer a {
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 0 5px #999;
+    transition: all .5s;
+}
+footer a:hover{
+    text-shadow: 0 0 0 #333;
+}
+.clear{
+    clear: both;
+}
+nav ul a{
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+
+}
+ul li a{
+    text-decoration: none;
+}
+
+nav ul li a{
+    display: block;
+    width: 100%;
+    color: #333;
+    padding-top: 5px;
+}
+nav ul li a:hover{
+    font-size: 22px;
+}
+.current{
+    border-left: 5px solid green;
+}
+.notLink{
+    border-left: 5px solid #333;
+}
+h1{
+    padding-bottom: 25px;
+}
+.mainAndroidImg{
+    width: 20%;
+    max-height: 260px;
+    margin-right: 70px;
+}
+
+.headerText{
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 70px;
+}
+
+.mainMargText{
+    display: block;
+    padding-top: 40px;
+
+}
+header span,h2{
+    color: #000;
+}
+.duck{
+    width: 35px;
+    position: absolute;
+    margin-left: 83%;
+    cursor: pointer;
+
+
+}
+main p{
+    text-indent: 1.5em;
+}
