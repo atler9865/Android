@@ -76,7 +76,9 @@ nav ul li a{
     padding-top: 5px;
 }
 nav ul li a:hover{
-    font-size: 22px;
+    color: green;
+    margin-left: 3px;
+    opacity: 0.8;
 }
 .current{
     border-left: 5px solid green;
